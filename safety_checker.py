@@ -183,6 +183,7 @@ class Safety_Checker:
     RETURN_NAMES = ("IMAGE", "nsfw")
     FUNCTION = "nsfw_checker"
     CATEGORY = "image"
+    OUTPUT_NODE = True
 
     # Convert numpy array to PIL image
     def numpy_to_pil(self, images):
